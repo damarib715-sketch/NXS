@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS | Fortnite Community</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#090914;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+radial-gradient(circle at top,#7b2cff 0%,transparent 50%),
+linear-gradient(#090914,#050509);
+}
+
+h1{
+font-family:Orbitron,sans-serif;
+font-size:5rem;
+text-shadow:0 0 25px #7b2cff;
+}
+
+p{
+font-size:1.2rem;
+max-width:700px;
+margin:20px auto;
+color:#ddd;
+}
+
+.button{
+display:inline-block;
+padding:16px 40px;
+margin-top:25px;
+border-radius:50px;
+background:#7b2cff;
+color:white;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 20px #7b2cff;
+transition:.3s;
+}
+
+.button:hover{
+transform:scale(1.08);
+box-shadow:0 0 35px #7b2cff;
+}
+
+section{
+padding:90px 10%;
+}
+
+.title{
+font-family:Orbitron;
+font-size:2.5rem;
+text-align:center;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#141424;
+padding:30px;
+border-radius:20px;
+border:1px solid #7b2cff;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #7b2cff;
+}
+
+.card h2{
+margin-bottom:15px;
+color:#a56eff;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#050509;
+color:#999;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div>
+
+<h1>NEXUS</
